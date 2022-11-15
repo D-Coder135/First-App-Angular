@@ -1,7 +1,8 @@
 import {Component} from '@angular/core';
 
-
-@Component({})
+@Component({
+  selector: 'app-server',
+})
 export class ServerComponent {
 
 }
