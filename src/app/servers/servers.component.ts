@@ -11,6 +11,7 @@ export class ServersComponent implements OnInit {
   serverCreationStatus = 'No Server Was Created!';
   serverName = 'TestServer';
   serverCreated = false;
+  servers = ['Testserver1', 'Testserver2'];
 
   // username = '';
 
