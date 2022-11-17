@@ -1,16 +1,16 @@
-<!--<label>Server Name</label>-->
-<!--&lt;!&ndash;<input (input)="onUpdateServerName($event)" class="form-control" type="text">&ndash;&gt;-->
-<!--<input [(ngModel)]="serverName" class="form-control" type="text">-->
-<!--<button (click)="onCreateServer()" [disabled]="!allowNewServer" class="btn btn-primary">Add Server</button>-->
-<!--&lt;!&ndash;<p>{{serverName}}</p>&ndash;&gt;-->
-<!--<p>{{serverCreationStatus}}</p>-->
+<label>Server Name</label>
+<!--<input (input)="onUpdateServerName($event)" class="form-control" type="text">-->
+<input [(ngModel)]="serverName" class="form-control" type="text">
+<button (click)="onCreateServer()" [disabled]="!allowNewServer" class="btn btn-primary">Add Server</button>
+<!--<p>{{serverName}}</p>-->
+<p>{{serverCreationStatus}}</p>
 
+<app-server></app-server>
 <!--<app-server></app-server>-->
-<!--&lt;!&ndash;<app-server></app-server>&ndash;&gt;-->
 
-<label>Username</label>
-<input [(ngModel)]="username" class="form-control" type="text">
-<p>{{username}}</p>
-<button (click)="username = ''" [disabled]="username == ''"
-        class="btn btn-primary">Reset Username
-</button>
+<!--<label>Username</label>-->
+<!--<input [(ngModel)]="username" class="form-control" type="text">-->
+<!--<p>{{username}}</p>-->
+<!--<button (click)="username = ''" [disabled]="username == ''"-->
+<!--        class="btn btn-primary">Reset Username-->
+<!--</button>-->
